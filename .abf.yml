@@ -1,2 +1,4 @@
 sources:
+  junit-bom-6.1.3.tar.gz: b56ae70acf8d83b958a397ed635458ce44e3900a
+removed_sources:
   junit-bom-6.0.3.tar.gz: d7e494e755dba9c62b72c3575006fe0186377bb6

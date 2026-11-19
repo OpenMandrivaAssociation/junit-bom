@@ -1,11 +1,11 @@
 Name:		junit-bom
-Version:	6.0.3
+Version:	6.1.3
 Release:	1
-Summary:	JUnit bill of materials for 6.0.3 and 5.12.2
+Summary:	JUnit bill of materials for 6.1.3 and 5.12.2
 Group:		Development/Java
 License:	EPL-2.0
 URL:		https://junit.org/junit5/
-# Tags r6.0.3 and r5.12.2 of junit-team/junit-framework.
+# Tags r6.1.3 and r5.12.2 of junit-team/junit-framework.
 # The archive keeps the Gradle files that name the managed modules.
 # Wrapper jars are not included.
 Source0:	junit-bom-%{version}.tar.gz
@@ -184,7 +184,7 @@ def write_pom(tree, expect_version, dest):
     return rows
 
 
-write_pom("6.0.3", "%{version}", "pom/junit-bom-%{version}.pom")
+write_pom("6.1.3", "%{version}", "pom/junit-bom-%{version}.pom")
 write_pom("5.12.2", "%{bom512}", "pom/junit-bom-%{bom512}.pom")
 PY
 
